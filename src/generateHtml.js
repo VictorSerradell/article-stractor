@@ -86,5 +86,6 @@ console.log("Article Loaded");
 fs.writeFileSync("public/index.html", htmlContent);
 fs.writeFileSync("public/styles.css", cssContent);
 fs.writeFileSync("public/script.js", jsContent);
+fs.writeFileSync("public/media.js", mediaContent);
 
 console.log("HTML, CSS, and JS files have been generated.");
