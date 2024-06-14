@@ -1,0 +1,15 @@
+{
+  "name": "article-to-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "generate": "node src/generateHtml.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "@extractus/article-extractor": "^8.0.10"
+  },
+  "type": "module"
+}
